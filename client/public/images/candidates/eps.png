@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <circle cx="100" cy="100" r="95" fill="#f5f5f5" stroke="#dddddd" stroke-width="1"></circle>
+    <rect x="0" y="150" width="200" height="50" fill="#00cc00"></rect>
+    
+    <!-- Face -->
+    <circle cx="100" cy="85" r="55" fill="#f4e0b9"></circle>
+    
+    <!-- Hair -->
+    <path d="M45,60 C45,30 155,30 155,60 L155,70 C155,40 45,40 45,70 Z" fill="#dddddd"></path>
+    
+    <!-- Eyebrows -->
+    <path d="M70,65 C75,60 85,60 90,65" stroke="#888888" stroke-width="2" stroke-linecap="round"></path>
+    <path d="M110,65 C115,60 125,60 130,65" stroke="#888888" stroke-width="2" stroke-linecap="round"></path>
+    
+    <!-- Eyes -->
+    <ellipse cx="80" cy="75" rx="5" ry="4" fill="#333333"></ellipse>
+    <ellipse cx="120" cy="75" rx="5" ry="4" fill="#333333"></ellipse>
+    
+    <!-- Glasses -->
+    <rect x="70" y="70" width="20" height="10" rx="5" stroke="#666666" stroke-width="1.5" fill="transparent"></rect>
+    <rect x="110" y="70" width="20" height="10" rx="5" stroke="#666666" stroke-width="1.5" fill="transparent"></rect>
+    <path d="M90,75 L110,75" stroke="#666666" stroke-width="1.5"></path>
+    
+    <!-- Nose -->
+    <path d="M95,80 C100,90 105,90 110,80" stroke="#d4b79b" stroke-width="2" fill="transparent"></path>
+    
+    <!-- Mustache -->
+    <path d="M75,95 C85,103 115,103 125,95" fill="#aaaaaa"></path>
+    
+    <!-- Mouth -->
+    <path d="M85,110 C95,115 105,115 115,110" stroke="#cc9980" stroke-width="2" stroke-linecap="round" fill="transparent"></path>
+    
+    <!-- Cheeks -->
+    <circle cx="70" cy="90" r="10" fill="#f4e0b9" stroke="#e0ccaa" stroke-width="1"></circle>
+    <circle cx="130" cy="90" r="10" fill="#f4e0b9" stroke="#e0ccaa" stroke-width="1"></circle>
+    
+    <!-- Ears -->
+    <path d="M45,75 C40,85 40,95 45,105" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    <path d="M155,75 C160,85 160,95 155,105" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    
+    <!-- Neck -->
+    <path d="M85,140 L85,150 L115,150 L115,140" fill="#f4e0b9"></path>
+    
+    <!-- Shirt -->
+    <path d="M85,150 L60,180 L140,180 L115,150" fill="#ffffff"></path>
+    
+    <!-- Party Symbol on Shirt -->
+    <path d="M90,160 C85,165 85,170 90,175 C95,170 100,170 105,165 C95,165 90,165 90,160 Z" fill="#00cc00" stroke="#008800" stroke-width="0.5"></path>
+    <path d="M110,160 C115,165 115,170 110,175 C105,170 100,170 95,165 C105,165 110,165 110,160 Z" fill="#00cc00" stroke="#008800" stroke-width="0.5"></path>
+    <path d="M100,165 L100,175" stroke="#008800" stroke-width="1" stroke-linecap="round"></path>
+    
+    <!-- Name -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" x="100" y="175" text-anchor="middle">E. PALANISWAMI</text>
+  </g>
+</svg> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="120px" viewBox="0 0 1200 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.15">
+    <path d="M0,40 L50,0 L100,40 L150,0 L200,40 L250,0 L300,40 L350,0 L400,40 L450,0 L500,40 L550,0 L600,40 L650,0 L700,40 L750,0 L800,40 L850,0 L900,40 L950,0 L1000,40 L1050,0 L1100,40 L1150,0 L1200,40 L1200,120 L0,120 Z" fill="#1a3a6c"></path>
+    <path d="M25,45 L25,90 L75,90 L75,45 L50,20 L25,45 Z" fill="#1a3a6c"></path>
+    <path d="M125,45 L125,90 L175,90 L175,45 L150,20 L125,45 Z" fill="#1a3a6c"></path>
+    <path d="M225,45 L225,90 L275,90 L275,45 L250,20 L225,45 Z" fill="#1a3a6c"></path>
+    <path d="M325,45 L325,90 L375,90 L375,45 L350,20 L325,45 Z" fill="#1a3a6c"></path>
+    <path d="M425,45 L425,90 L475,90 L475,45 L450,20 L425,45 Z" fill="#1a3a6c"></path>
+    <path d="M525,45 L525,90 L575,90 L575,45 L550,20 L525,45 Z" fill="#1a3a6c"></path>
+    <path d="M625,45 L625,90 L675,90 L675,45 L650,20 L625,45 Z" fill="#1a3a6c"></path>
+    <path d="M725,45 L725,90 L775,90 L775,45 L750,20 L725,45 Z" fill="#1a3a6c"></path>
+    <path d="M825,45 L825,90 L875,90 L875,45 L850,20 L825,45 Z" fill="#1a3a6c"></path>
+    <path d="M925,45 L925,90 L975,90 L975,45 L950,20 L925,45 Z" fill="#1a3a6c"></path>
+    <path d="M1025,45 L1025,90 L1075,90 L1075,45 L1050,20 L1025,45 Z" fill="#1a3a6c"></path>
+    <path d="M1125,45 L1125,90 L1175,90 L1175,45 L1150,20 L1125,45 Z" fill="#1a3a6c"></path>
+  </g>
+</svg> 

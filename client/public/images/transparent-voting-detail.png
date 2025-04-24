@@ -1,0 +1,98 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a6c" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2962FF" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a6c"/>
+      <stop offset="100%" stop-color="#2962FF"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#f4e9c9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#1a3a6c" flood-opacity="0.3" result="coloredBlur"/>
+      <feComposite in="SourceGraphic" in2="coloredBlur" operator="over"/>
+    </filter>
+    <pattern id="kolam" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="30" cy="10" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="10" cy="30" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="30" cy="30" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="20" cy="20" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="40" cy="20" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="20" cy="40" r="2" fill="#1a3a6c" opacity="0.1"/>
+      <circle cx="40" cy="40" r="2" fill="#1a3a6c" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background with Tamil Kolam Pattern -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  <rect width="800" height="400" fill="url(#kolam)"/>
+  
+  <!-- Decorative Border with Tamil Design -->
+  <rect x="20" y="20" width="760" height="360" rx="10" stroke="#1a3a6c" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="5,5" fill="none"/>
+  <path d="M40 40 L60 40 M740 40 L760 40 M40 360 L60 360 M740 360 L760 360" stroke="#d4af37" stroke-width="3"/>
+  
+  <!-- Main Graphic: Transparent Glass Ballot Box -->
+  <rect x="300" y="130" width="200" height="200" rx="15" fill="white" fill-opacity="0.8" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.15))"/>
+  <rect x="310" y="140" width="180" height="180" rx="10" fill="rgba(26, 58, 108, 0.05)" stroke="url(#blueGradient)" stroke-width="1.5"/>
+  
+  <!-- Documents in Box (Ballots) -->
+  <rect x="330" y="220" width="140" height="10" rx="2" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="0.5"/>
+  <rect x="330" y="235" width="140" height="10" rx="2" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="0.5"/>
+  <rect x="330" y="250" width="140" height="10" rx="2" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="0.5"/>
+  <rect x="330" y="265" width="140" height="10" rx="2" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="0.5"/>
+  <rect x="330" y="280" width="140" height="10" rx="2" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="0.5"/>
+  
+  <!-- Ballot Being Inserted -->
+  <rect x="325" y="100" width="150" height="40" rx="5" fill="white" stroke="url(#blueGradient)" stroke-width="1.5" filter="drop-shadow(0 3px 6px rgba(0,0,0,0.1))"/>
+  <line x1="345" y1="120" x2="455" y2="120" stroke="#1a3a6c" stroke-width="1.5"/>
+  <circle cx="465" cy="120" r="10" fill="url(#blueGradient)"/>
+  <path d="M460 120 L465 125 L470 115" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Magnifying Glass (Transparency Symbol) -->
+  <circle cx="575" cy="175" r="45" fill="white" fill-opacity="0.9" stroke="url(#blueGradient)" stroke-width="3"/>
+  <circle cx="575" cy="175" r="35" fill="rgba(26, 58, 108, 0.05)"/>
+  <path d="M610 210 L640 240" stroke="url(#blueGradient)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M610 210 L640 240" stroke="url(#goldAccent)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Eye Symbol (Watching/Verification) -->
+  <ellipse cx="225" cy="175" rx="45" ry="30" fill="white" stroke="url(#blueGradient)" stroke-width="2"/>
+  <circle cx="225" cy="175" r="15" fill="url(#blueGradient)"/>
+  <circle cx="225" cy="175" r="5" fill="white"/>
+  <path d="M165 175 C165 175 185 120 225 120 C265 120 285 175 285 175 C285 175 265 230 225 230 C185 230 165 175 165 175 Z" stroke="url(#blueGradient)" stroke-width="2" fill="none"/>
+  
+  <!-- Digital Nodes and Network (Verification System) -->
+  <circle cx="160" cy="120" r="10" fill="url(#blueGradient)" opacity="0.8"/>
+  <circle cx="200" cy="100" r="8" fill="url(#blueGradient)" opacity="0.8"/>
+  <circle cx="250" cy="110" r="6" fill="url(#blueGradient)" opacity="0.8"/>
+  <circle cx="160" cy="230" r="10" fill="url(#blueGradient)" opacity="0.8"/>
+  <circle cx="200" cy="250" r="8" fill="url(#blueGradient)" opacity="0.8"/>
+  <circle cx="250" cy="240" r="6" fill="url(#blueGradient)" opacity="0.8"/>
+  <path d="M160 120 L200 100 L250 110 M160 230 L200 250 L250 240" stroke="#1a3a6c" stroke-dasharray="4,2"/>
+  <path d="M160 120 L190 175 M200 100 L210 175 M250 110 L240 175 M160 230 L190 175 M200 250 L210 175 M250 240 L240 175" stroke="#1a3a6c" stroke-dasharray="4,2"/>
+  
+  <!-- Lock Symbol (For Security) -->
+  <rect x="640" y="155" width="40" height="40" rx="5" fill="url(#blueGradient)" filter="drop-shadow(0 3px 6px rgba(0,0,0,0.2))"/>
+  <path d="M650 155 L650 145 C650 135 660 135 660 135 C660 135 670 135 670 145 L670 155" stroke="white" stroke-width="2"/>
+  <circle cx="660" cy="175" r="8" fill="white"/>
+  <line x1="660" y1="175" x2="660" y2="180" stroke="#1a3a6c" stroke-width="2"/>
+  
+  <!-- Digital Verification Badge -->
+  <circle cx="695" cy="125" r="25" fill="white" stroke="url(#goldAccent)" stroke-width="2"/>
+  <text x="685" y="130" font-family="Arial" font-size="16" fill="#1a3a6c" font-weight="bold">V</text>
+  <path d="M680 125 L690 135 L710 115" stroke="url(#goldAccent)" stroke-width="2"/>
+  
+  <!-- Label with Premium Button Style -->
+  <rect x="300" y="350" width="200" height="36" rx="18" fill="url(#blueGradient)" filter="drop-shadow(0 3px 6px rgba(0,0,0,0.2))"/>
+  <rect x="302" y="352" width="196" height="32" rx="16" fill="url(#blueGradient)" stroke="url(#goldAccent)" stroke-width="1"/>
+  <text x="335" y="375" font-family="Arial" font-size="16" fill="white" font-weight="bold">TRANSPARENT VOTING</text>
+  
+  <!-- Tamil Ornamental Elements -->
+  <path d="M280 350 C280 350 270 340 280 330 C290 320 300 330 300 330" stroke="url(#goldAccent)" stroke-width="2"/>
+  <path d="M520 350 C520 350 530 340 520 330 C510 320 500 330 500 330" stroke="url(#goldAccent)" stroke-width="2"/>
+</svg> 

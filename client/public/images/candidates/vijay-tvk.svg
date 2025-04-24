@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Spanish flag-like background -->
+  <rect width="400" height="400" fill="#CC0000" />
+  <rect width="400" height="140" y="130" fill="#FFCC00" />
+  
+  <!-- Tamil Nadu map shadow -->
+  <path d="M240,80 C300,100 320,180 300,260 C280,340 200,320 160,280 C120,240 80,220 100,140 C120,60 180,60 240,80" 
+        fill="#AA0000" opacity="0.15" />
+  
+  <!-- Head and face circle -->
+  <circle cx="200" cy="140" r="80" fill="#E6BF99" />
+  
+  <!-- Hair -->
+  <path d="M150,90 C140,70 150,50 180,40 C210,30 260,50 260,80 C260,120 240,140 240,140 
+         C240,140 250,120 230,90 C210,70 180,70 160,90 C140,110 140,120 140,120" 
+        fill="#1A1A1A" />
+  
+  <!-- Beard and mustache -->
+  <path d="M170,160 C180,170 190,175 200,175 C210,175 220,170 230,160 
+         M160,140 Q185,155 200,155 Q215,155 240,140" 
+        fill="none" stroke="#1A1A1A" stroke-width="5" />
+  <path d="M170,170 C180,200 220,200 230,170" fill="#1A1A1A" opacity="0.6" />
+  
+  <!-- Eyes -->
+  <ellipse cx="175" cy="125" rx="10" ry="6" fill="#1A1A1A" />
+  <ellipse cx="225" cy="125" rx="10" ry="6" fill="#1A1A1A" />
+  
+  <!-- Eyebrows -->
+  <path d="M155,110 C165,105 180,105 190,110 M210,110 C220,105 235,105 245,110" 
+        fill="none" stroke="#1A1A1A" stroke-width="4" />
+  
+  <!-- Nose -->
+  <path d="M200,125 C200,140 195,155 200,155 M190,155 L210,155" 
+        fill="none" stroke="#C09878" stroke-width="3" />
+  
+  <!-- White shirt -->
+  <path d="M120,220 L120,350 L280,350 L280,220 C280,220 240,250 200,250 C160,250 120,220 120,220Z" 
+        fill="#FFFFFF" />
+  <path d="M180,250 L180,350 M220,250 L220,350" 
+        fill="none" stroke="#EFEFEF" stroke-width="1" />
+  
+  <!-- Namaste hands -->
+  <path d="M180,280 C180,260 200,250 200,250 C200,250 220,260 220,280 C220,300 200,300 200,300 C200,300 180,300 180,280Z" 
+        fill="#E6BF99" />
+  <path d="M200,250 L200,300" fill="none" stroke="#D5AF89" stroke-width="2" />
+  <path d="M180,270 C185,265 195,260 200,260 C205,260 215,265 220,270" 
+        fill="none" stroke="#D5AF89" stroke-width="2" />
+</svg> 

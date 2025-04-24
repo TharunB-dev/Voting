@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="200px" viewBox="0 0 600 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Step 1: Register -->
+    <g transform="translate(20, 20)">
+      <circle cx="40" cy="40" r="40" fill="#e9f5ff" />
+      <circle cx="40" cy="40" r="35" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <text x="40" y="45" font-family="Arial" font-size="12" fill="#1a3a6c" text-anchor="middle">Register</text>
+      <path d="M25,20 L55,20 L55,60 L25,60 Z" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <path d="M35,30 L45,30 M35,40 L45,40 M35,50 L45,50" stroke="#1a3a6c" stroke-width="2" stroke-linecap="round" />
+    </g>
+    
+    <!-- Arrow 1 -->
+    <path d="M100,60 L140,60" stroke="#ff9933" stroke-width="2" stroke-linecap="round" />
+    <path d="M135,55 L140,60 L135,65" stroke="#ff9933" stroke-width="2" stroke-linecap="round" fill="none" />
+    
+    <!-- Step 2: Verify -->
+    <g transform="translate(160, 20)">
+      <circle cx="40" cy="40" r="40" fill="#e9f5ff" />
+      <circle cx="40" cy="40" r="35" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <text x="40" y="45" font-family="Arial" font-size="12" fill="#1a3a6c" text-anchor="middle">Verify</text>
+      <path d="M30,30 L50,50 M50,30 L30,50" stroke="#1a3a6c" stroke-width="2" stroke-linecap="round" />
+    </g>
+    
+    <!-- Arrow 2 -->
+    <path d="M240,60 L280,60" stroke="#ff9933" stroke-width="2" stroke-linecap="round" />
+    <path d="M275,55 L280,60 L275,65" stroke="#ff9933" stroke-width="2" stroke-linecap="round" fill="none" />
+    
+    <!-- Step 3: Vote -->
+    <g transform="translate(300, 20)">
+      <circle cx="40" cy="40" r="40" fill="#e9f5ff" />
+      <circle cx="40" cy="40" r="35" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <text x="40" y="45" font-family="Arial" font-size="12" fill="#1a3a6c" text-anchor="middle">Vote</text>
+      <rect x="25" y="25" width="30" height="30" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <path d="M30,40 L40,50 L55,25" stroke="#138808" stroke-width="2" stroke-linecap="round" fill="none" />
+    </g>
+    
+    <!-- Arrow 3 -->
+    <path d="M380,60 L420,60" stroke="#ff9933" stroke-width="2" stroke-linecap="round" />
+    <path d="M415,55 L420,60 L415,65" stroke="#ff9933" stroke-width="2" stroke-linecap="round" fill="none" />
+    
+    <!-- Step 4: Results -->
+    <g transform="translate(440, 20)">
+      <circle cx="40" cy="40" r="40" fill="#e9f5ff" />
+      <circle cx="40" cy="40" r="35" stroke="#1a3a6c" stroke-width="2" fill="none" />
+      <text x="40" y="45" font-family="Arial" font-size="12" fill="#1a3a6c" text-anchor="middle">Results</text>
+      <path d="M25,50 L35,40 L45,45 L55,30" stroke="#1a3a6c" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M25,50 L55,50" stroke="#1a3a6c" stroke-width="1" stroke-dasharray="2,2" />
+    </g>
+    
+    <!-- Tamil Nadu Border Pattern -->
+    <path d="M0,160 L15,140 L30,160 L45,140 L60,160 L75,140 L90,160 L105,140 L120,160 L135,140 L150,160 L165,140 L180,160 L195,140 L210,160 L225,140 L240,160 L255,140 L270,160 L285,140 L300,160 L315,140 L330,160 L345,140 L360,160 L375,140 L390,160 L405,140 L420,160 L435,140 L450,160 L465,140 L480,160 L495,140 L510,160 L525,140 L540,160 L555,140 L570,160 L585,140 L600,160" stroke="#1a3a6c" stroke-width="2" opacity="0.5" fill="none" />
+    
+    <!-- Tamil Nadu Kolam Pattern (simplified) -->
+    <g transform="translate(0, 170)">
+      <path d="M10,5 L10,15 L20,15 L20,5 Z M30,5 L30,15 L40,15 L40,5 Z M50,5 L50,15 L60,15 L60,5 Z M70,5 L70,15 L80,15 L80,5 Z M90,5 L90,15 L100,15 L100,5 Z M110,5 L110,15 L120,15 L120,5 Z M130,5 L130,15 L140,15 L140,5 Z M150,5 L150,15 L160,15 L160,5 Z M170,5 L170,15 L180,15 L180,5 Z M190,5 L190,15 L200,15 L200,5 Z M210,5 L210,15 L220,15 L220,5 Z M230,5 L230,15 L240,15 L240,5 Z M250,5 L250,15 L260,15 L260,5 Z M270,5 L270,15 L280,15 L280,5 Z M290,5 L290,15 L300,15 L300,5 Z M310,5 L310,15 L320,15 L320,5 Z M330,5 L330,15 L340,15 L340,5 Z M350,5 L350,15 L360,15 L360,5 Z M370,5 L370,15 L380,15 L380,5 Z M390,5 L390,15 L400,15 L400,5 Z M410,5 L410,15 L420,15 L420,5 Z M430,5 L430,15 L440,15 L440,5 Z M450,5 L450,15 L460,15 L460,5 Z M470,5 L470,15 L480,15 L480,5 Z M490,5 L490,15 L500,15 L500,5 Z M510,5 L510,15 L520,15 L520,5 Z M530,5 L530,15 L540,15 L540,5 Z M550,5 L550,15 L560,15 L560,5 Z M570,5 L570,15 L580,15 L580,5 Z M590,5 L590,15 L600,15 L600,5 Z" fill="#ff9933" opacity="0.3" />
+    </g>
+  </g>
+</svg> 

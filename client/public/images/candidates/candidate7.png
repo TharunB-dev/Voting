@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#fff5f7" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="32" fill="#ffdfc4"></circle>
+    
+    <!-- Hair -->
+    <path d="M68,70 C68,45 132,45 132,70 C132,55 68,55 68,70 Z" fill="#663300"></path>
+    <path d="M68,70 C60,85 60,95 70,100 L68,70 Z" fill="#663300"></path>
+    <path d="M132,70 C140,85 140,95 130,100 L132,70 Z" fill="#663300"></path>
+    
+    <!-- Body shape - dress -->
+    <path d="M75,102 L125,102 L135,200 L65,200 Z" fill="#e6005c"></path>
+    <path d="M75,102 L125,102 L140,150 L60,150 Z" fill="#ff3385"></path>
+    
+    <!-- Face features -->
+    <ellipse cx="90" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <ellipse cx="110" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <path d="M90,75 C95,80 105,80 110,75" stroke="#ff6699" stroke-width="2" fill="none"></path>
+    <circle cx="85" cy="60" r="6" fill="#fff5f7"></circle>
+    <circle cx="115" cy="60" r="6" fill="#fff5f7"></circle>
+    
+    <!-- Earrings -->
+    <circle cx="68" cy="72" r="3" fill="#ffcc00"></circle>
+    <circle cx="132" cy="72" r="3" fill="#ffcc00"></circle>
+    
+    <!-- Necklace -->
+    <path d="M85,100 C90,108 110,108 115,100" stroke="#ffcc00" stroke-width="2" fill="none"></path>
+    <circle cx="100" cy="105" r="3" fill="#ffcc00"></circle>
+    
+    <!-- Hands -->
+    <path d="M75,120 C65,130 60,150 55,160" stroke="#ffdfc4" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    <path d="M125,120 C135,130 140,150 145,160" stroke="#ffdfc4" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    
+    <!-- Party symbol -->
+    <circle cx="100" cy="25" r="12" fill="#e6005c"></circle>
+    <circle cx="100" cy="25" r="6" fill="#ffffff"></circle>
+    <circle cx="100" cy="25" r="2" fill="#e6005c"></circle>
+  </g>
+</svg> 

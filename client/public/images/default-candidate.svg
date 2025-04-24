@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#f0f0f0" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="40" fill="#d0d0d0"></circle>
+    
+    <!-- Body shape -->
+    <path d="M60,120 L140,120 L140,200 L60,200 Z" fill="#d0d0d0"></path>
+    
+    <!-- Face features (simplified) -->
+    <circle cx="85" cy="60" r="5" fill="#a0a0a0"></circle>
+    <circle cx="115" cy="60" r="5" fill="#a0a0a0"></circle>
+    <path d="M85,85 C85,95 115,95 115,85" stroke="#a0a0a0" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Collar -->
+    <path d="M70,120 L100,140 L130,120" stroke="#a0a0a0" stroke-width="3" fill="#f0f0f0"></path>
+    
+    <!-- TN initials -->
+    <text font-family="Arial" font-size="24" font-weight="bold" fill="#a0a0a0" x="100" y="170" text-anchor="middle">TN</text>
+  </g>
+</svg> 

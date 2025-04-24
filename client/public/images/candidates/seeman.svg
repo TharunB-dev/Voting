@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <circle cx="100" cy="100" r="95" fill="#f5f5f5" stroke="#dddddd" stroke-width="1"></circle>
+    <rect x="0" y="150" width="200" height="50" fill="#ffcc00"></rect>
+    
+    <!-- Face -->
+    <circle cx="100" cy="85" r="55" fill="#f4e0b9"></circle>
+    
+    <!-- Hair -->
+    <path d="M45,50 C45,20 155,20 155,50 L155,70 C155,40 45,40 45,70 Z" fill="#222222"></path>
+    
+    <!-- Beard -->
+    <path d="M60,95 C60,120 85,140 100,140 C115,140 140,120 140,95 L135,95 C135,115 115,130 100,130 C85,130 65,115 65,95 Z" fill="#222222"></path>
+    
+    <!-- Eyebrows -->
+    <path d="M70,60 C75,55 85,55 90,60" stroke="#222222" stroke-width="3" stroke-linecap="round"></path>
+    <path d="M110,60 C115,55 125,55 130,60" stroke="#222222" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Eyes -->
+    <ellipse cx="80" cy="70" rx="5" ry="4" fill="#333333"></ellipse>
+    <ellipse cx="120" cy="70" rx="5" ry="4" fill="#333333"></ellipse>
+    
+    <!-- Nose -->
+    <path d="M95,75 C100,90 105,90 110,75" stroke="#d4b79b" stroke-width="3" fill="transparent"></path>
+    
+    <!-- Mouth -->
+    <path d="M85,100 C95,105 105,105 115,100" stroke="#cc9980" stroke-width="2" stroke-linecap="round" fill="transparent"></path>
+    
+    <!-- Ears -->
+    <path d="M45,70 C40,80 40,90 45,100" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    <path d="M155,70 C160,80 160,90 155,100" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    
+    <!-- Neck -->
+    <path d="M85,140 L85,150 L115,150 L115,140" fill="#f4e0b9"></path>
+    
+    <!-- Shirt -->
+    <path d="M85,150 L60,180 L140,180 L115,150" fill="#ffffff"></path>
+    
+    <!-- Party Symbol on Shirt -->
+    <path d="M100,160 C90,165 90,172 95,175 C100,178 105,175 110,170 C105,170 100,172 100,160 Z" fill="#ffcc00" stroke="#e6b800" stroke-width="0.5"></path>
+    <rect x="98" y="163" width="4" height="12" rx="2" fill="#000000"></rect>
+    
+    <!-- Intensity Lines -->
+    <path d="M65,60 L55,55" stroke="#222222" stroke-width="1.5" stroke-linecap="round"></path>
+    <path d="M135,60 L145,55" stroke="#222222" stroke-width="1.5" stroke-linecap="round"></path>
+    
+    <!-- Name -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#000000" x="100" y="175" text-anchor="middle">SEEMAN</text>
+  </g>
+</svg> 

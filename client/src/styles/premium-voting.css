@@ -1,0 +1,817 @@
+/* Premium Voting Dashboard Styles */
+:root {
+  --premium-gradient: linear-gradient(135deg, #1a3a6c 0%, #2c4e80 50%, #1a3a6c 100%);
+  --premium-accent: #f3c13a;
+  --premium-gold: #d4af37;
+  --premium-silver: #c0c0c0;
+  --premium-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  --premium-card-bg: rgba(255, 255, 255, 0.95);
+  --premium-glow: 0 0 15px rgba(243, 193, 58, 0.5);
+}
+
+/* Override container and base styles */
+.tn-voting-dashboard {
+  background-image: url('/images/kolam-pattern.png'), var(--premium-gradient);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+/* Premium Header */
+.tn-voting-header {
+  position: relative;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: var(--premium-shadow);
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tn-voting-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+  opacity: 0.5;
+  pointer-events: none;
+  animation: headerShimmer 8s infinite linear;
+}
+
+@keyframes headerShimmer {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0.3;
+  }
+}
+
+.tn-voting-title {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.tn-voting-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+/* Government Logo and Map */
+.tn-govt-logo-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: inline-flex;
+  margin-bottom: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.tn-govt-logo-container:hover {
+  transform: scale(1.05);
+}
+
+.tn-map-container {
+  position: relative;
+  max-width: 120px;
+  margin: 0 auto;
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.2));
+}
+
+.tn-map-outline {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.tn-map-outline:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(243, 193, 58, 0.6));
+}
+
+/* Constituency Selector */
+.tn-constituency-selector {
+  margin-bottom: 2.5rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.5rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--premium-shadow);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.tn-constituency-selector:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.tn-form-label {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  display: block;
+  font-size: 1.1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tn-form-control {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tn-text-primary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%231a3a6c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+  padding-right: 45px;
+}
+
+.tn-form-control:focus {
+  outline: none;
+  border-color: var(--premium-accent);
+  box-shadow: 0 0 0 3px rgba(243, 193, 58, 0.25), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Candidate Cards */
+.tn-candidates-list {
+  margin-bottom: 3rem;
+}
+
+.tn-section-title {
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.75rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tn-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--premium-accent);
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(243, 193, 58, 0.5);
+}
+
+.tn-candidates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tn-candidate-card {
+  background: var(--premium-card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--premium-shadow);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.tn-candidate-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.tn-candidate-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, var(--tn-primary), var(--premium-accent));
+  opacity: 0.9;
+}
+
+/* Party-specific card styles */
+.tn-candidate-dmk::before {
+  background: linear-gradient(90deg, #e71a1a, #ff5252);
+}
+
+.tn-candidate-admk::before {
+  background: linear-gradient(90deg, #00b894, #55efc4);
+}
+
+.tn-candidate-bjp::before {
+  background: linear-gradient(90deg, #ff9f1a, #ffcc80);
+}
+
+.tn-candidate-ntk::before {
+  background: linear-gradient(90deg, #f5c43c, #ffe066);
+}
+
+.tn-candidate-tvk::before {
+  background: linear-gradient(90deg, #8e44ad, #a55eea);
+}
+
+.tn-candidate-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.tn-candidate-photo-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.tn-candidate-card:hover .tn-candidate-photo-container {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 5px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.tn-candidate-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.tn-candidate-card:hover .tn-candidate-photo {
+  transform: scale(1.1);
+}
+
+.tn-party-symbol-container {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.tn-candidate-card:hover .tn-party-symbol-container {
+  transform: rotate(10deg);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tn-party-symbol {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tn-candidate-info {
+  padding: 1.5rem;
+}
+
+.tn-candidate-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--tn-primary);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.tn-candidate-name-tamil {
+  font-size: 0.85rem;
+  color: var(--tn-text-secondary);
+  margin-top: 0.25rem;
+}
+
+.tn-party-details {
+  margin-bottom: 1rem;
+}
+
+.tn-party-name {
+  color: var(--tn-text-secondary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tn-party-short {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--tn-primary);
+}
+
+.tn-candidate-description {
+  font-size: 0.9rem;
+  color: var(--tn-text-secondary);
+  line-height: 1.5;
+}
+
+.tn-vote-button {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.tn-vote-btn {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--tn-primary) 0%, var(--tn-primary-dark) 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tn-vote-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: 0.5s;
+}
+
+.tn-vote-btn:hover {
+  background: linear-gradient(135deg, var(--tn-primary-dark) 0%, var(--tn-primary) 100%);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.tn-vote-btn:hover::before {
+  left: 100%;
+}
+
+.tn-vote-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Rules section */
+.tn-voting-rules {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: var(--premium-shadow);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tn-rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tn-rule-item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.tn-rule-item:last-child {
+  margin-bottom: 0;
+}
+
+.tn-rule-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.tn-rule-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--tn-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.tn-rule-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--tn-primary);
+  font-size: 1.1rem;
+}
+
+.tn-rule-content p {
+  margin: 0;
+  color: var(--tn-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* More info section */
+.tn-more-info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tn-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tn-btn-primary {
+  background: linear-gradient(135deg, var(--tn-primary) 0%, var(--tn-primary-dark) 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tn-btn-primary:hover {
+  background: linear-gradient(135deg, var(--tn-primary-dark) 0%, var(--tn-primary) 100%);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+.tn-btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tn-btn-outline {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tn-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.tn-btn-outline:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Language Toggle */
+.tn-language-toggle {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tn-language-option {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tn-language-option.active {
+  background: var(--tn-primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Confirmation Modal */
+.tn-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tn-modal {
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: slideUp 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.tn-modal h2 {
+  margin-top: 0;
+  color: var(--tn-primary);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.tn-modal h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: var(--premium-accent);
+  border-radius: 3px;
+}
+
+.tn-vote-confirmation {
+  text-align: center;
+}
+
+.tn-confirmation-candidate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.tn-confirmation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.tn-glass {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Animation for background kolam pattern */
+.tn-kolam-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/images/kolam-pattern.png');
+  opacity: 0.05;
+  z-index: -1;
+  animation: slowMove 60s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes slowMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1000px 1000px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tn-voting-header {
+    padding: 1.5rem 1rem;
+  }
+  
+  .tn-voting-title {
+    font-size: 1.75rem;
+  }
+  
+  .tn-candidates-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tn-rule-item {
+    flex-direction: column;
+  }
+  
+  .tn-rule-icon {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  
+  .tn-more-info {
+    flex-direction: column;
+  }
+  
+  .tn-language-toggle {
+    top: 70px;
+    right: 10px;
+  }
+}
+
+/* Premium Loading Overlay */
+.premium-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  color: white;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+}
+
+.premium-spinner {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.premium-spinner-inner {
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Premium Success Message */
+.premium-success-message {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(26, 188, 156, 0.9);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  color: white;
+  max-width: 90%;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: slideDown 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), fadeOut 0.5s ease 4.5s;
+}
+
+@keyframes slideDown {
+  from { 
+    transform: translate(-50%, -20px);
+    opacity: 0;
+  }
+  to { 
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.premium-success-icon {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #1abc9c;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.premium-success-message h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.premium-success-message p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+} 

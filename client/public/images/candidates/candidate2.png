@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background with party color -->
+    <rect fill="#e6ffe6" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="40" fill="#ffcc99"></circle>
+    
+    <!-- Body shape with party color accent -->
+    <path d="M60,120 L140,120 L140,200 L60,200 Z" fill="#ffcc99"></path>
+    <path d="M60,170 L140,170 L140,200 L60,200 Z" fill="#138808" opacity="0.7"></path>
+    
+    <!-- Face features -->
+    <circle cx="85" cy="60" r="5" fill="#333333"></circle>
+    <circle cx="115" cy="60" r="5" fill="#333333"></circle>
+    <path d="M85,85 C85,95 115,95 115,85" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Hair -->
+    <path d="M70,45 C70,30 85,20 100,20 C115,20 130,30 130,45 C130,50 125,60 125,60 L75,60 C75,60 70,50 70,45 Z" fill="#666666"></path>
+    <path d="M75,60 C75,40 125,40 125,60" stroke="#666666" stroke-width="5"></path>
+    
+    <!-- Glasses -->
+    <path d="M80,60 L120,60" stroke="#333333" stroke-width="2"></path>
+    <circle cx="85" cy="60" r="10" stroke="#333333" stroke-width="2" fill="none"></circle>
+    <circle cx="115" cy="60" r="10" stroke="#333333" stroke-width="2" fill="none"></circle>
+    
+    <!-- Collar and sari -->
+    <path d="M70,120 L130,120 L130,140 L70,140 Z" fill="white"></path>
+    <path d="M65,140 L135,140 L145,160 L55,160 Z" fill="#138808"></path>
+    <path d="M55,160 L145,160 L145,180 L55,180 Z" fill="#138808" opacity="0.7"></path>
+  </g>
+</svg> 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="300px" viewBox="0 0 500 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#f8f9fa" x="0" y="0" width="500" height="300" rx="10"></rect>
+    
+    <!-- Voting machine outline -->
+    <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="2" x="100" y="50" width="300" height="200" rx="10"></rect>
+    
+    <!-- Display screen -->
+    <rect fill="#e9f5ff" stroke="#1a3a6c" stroke-width="2" x="120" y="70" width="260" height="60" rx="5"></rect>
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#1a3a6c" x="250" y="105" text-anchor="middle">ELECTRONIC VOTING MACHINE</text>
+    
+    <!-- Buttons row 1 -->
+    <g transform="translate(120, 150)">
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="0" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="20" y="20" text-anchor="middle">1</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="55" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="75" y="20" text-anchor="middle">2</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="110" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="130" y="20" text-anchor="middle">3</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="165" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="185" y="20" text-anchor="middle">4</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="220" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="240" y="20" text-anchor="middle">5</text>
+    </g>
+    
+    <!-- Buttons row 2 -->
+    <g transform="translate(120, 190)">
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="0" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="20" y="20" text-anchor="middle">6</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="55" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="75" y="20" text-anchor="middle">7</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="110" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="130" y="20" text-anchor="middle">8</text>
+      
+      <rect fill="#ffffff" stroke="#1a3a6c" stroke-width="1" x="165" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#1a3a6c" x="185" y="20" text-anchor="middle">9</text>
+      
+      <rect fill="#ff9933" stroke="#ff7700" stroke-width="1" x="220" y="0" width="40" height="30" rx="3"></rect>
+      <text font-family="Arial" font-size="12" fill="#ffffff" x="240" y="20" text-anchor="middle">VOTE</text>
+    </g>
+    
+    <!-- Ashoka emblem -->
+    <circle cx="50" cy="75" r="30" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="1"></circle>
+    <circle cx="50" cy="75" r="25" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="1"></circle>
+    <path d="M50,55 L50,95 M35,75 L65,75 M38,63 L62,87 M38,87 L62,63" stroke="#1a3a6c" stroke-width="1"></path>
+    
+    <!-- Tamil Nadu state outline (simplified) -->
+    <circle cx="50" cy="150" r="30" fill="#f8f9fa" stroke="#1a3a6c" stroke-width="1"></circle>
+    <path d="M35,150 C35,135 65,135 65,150 C65,165 50,175 50,175 C50,175 35,165 35,150 Z" stroke="#1a3a6c" stroke-width="1" fill="#f8f9fa"></path>
+    <path d="M50,140 L50,160 M40,150 L60,150" stroke="#1a3a6c" stroke-width="1"></path>
+    
+    <!-- Tamil Nadu text -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#1a3a6c" x="50" y="225" text-anchor="middle">TAMIL</text>
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#1a3a6c" x="50" y="245" text-anchor="middle">NADU</text>
+    
+    <!-- Bottom decoration -->
+    <path d="M0,290 L20,280 L40,290 L60,280 L80,290 L100,280 L120,290 L140,280 L160,290 L180,280 L200,290 L220,280 L240,290 L260,280 L280,290 L300,280 L320,290 L340,280 L360,290 L380,280 L400,290 L420,280 L440,290 L460,280 L480,290 L500,280" stroke="#ff9933" stroke-width="2" opacity="0.6"></path>
+    
+    <!-- Bottom border -->
+    <rect fill="#1a3a6c" x="0" y="290" width="500" height="10"></rect>
+  </g>
+</svg> 

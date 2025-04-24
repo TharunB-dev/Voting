@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background with party color -->
+    <rect fill="#ffe6e6" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="40" fill="#ffcc99"></circle>
+    
+    <!-- Body shape with party color accent -->
+    <path d="M60,120 L140,120 L140,200 L60,200 Z" fill="#ffcc99"></path>
+    <path d="M60,170 L140,170 L140,200 L60,200 Z" fill="#ff9933" opacity="0.7"></path>
+    
+    <!-- Face features -->
+    <circle cx="85" cy="60" r="5" fill="#333333"></circle>
+    <circle cx="115" cy="60" r="5" fill="#333333"></circle>
+    <path d="M85,85 C85,95 115,95 115,85" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Hair -->
+    <path d="M60,40 C60,20 80,15 100,15 C120,15 140,20 140,40 L140,70 C140,70 120,75 100,75 C80,75 60,70 60,70 Z" fill="#000000"></path>
+    
+    <!-- Mustache -->
+    <path d="M85,75 C95,85 105,85 115,75" stroke="#333333" stroke-width="3" fill="none"></path>
+    
+    <!-- Neck tie -->
+    <path d="M90,120 L110,120 L115,170 L100,160 L85,170 L90,120 Z" fill="#ff9933"></path>
+    
+    <!-- Collar and shirt -->
+    <path d="M70,120 L90,120 L90,135 L70,145 Z" fill="white"></path>
+    <path d="M130,120 L110,120 L110,135 L130,145 Z" fill="white"></path>
+    <path d="M70,145 L130,145 L130,200 L70,200 Z" fill="#dddddd"></path>
+  </g>
+</svg> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Bicycle wheels -->
+    <circle cx="25" cy="60" r="20" stroke="#1a3a6c" stroke-width="3"></circle>
+    <circle cx="25" cy="60" r="17" stroke="#1a3a6c" stroke-width="1"></circle>
+    <circle cx="25" cy="60" r="3" fill="#1a3a6c"></circle>
+    
+    <circle cx="75" cy="60" r="20" stroke="#1a3a6c" stroke-width="3"></circle>
+    <circle cx="75" cy="60" r="17" stroke="#1a3a6c" stroke-width="1"></circle>
+    <circle cx="75" cy="60" r="3" fill="#1a3a6c"></circle>
+    
+    <!-- Bicycle frame -->
+    <path d="M25,60 L50,30 L75,60 M50,30 L45,60 M60,45 L45,60" stroke="#1a3a6c" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Bicycle handlebars and seat -->
+    <path d="M50,30 L60,25 M50,30 L45,20" stroke="#1a3a6c" stroke-width="3" stroke-linecap="round"></path>
+  </g>
+</svg> 

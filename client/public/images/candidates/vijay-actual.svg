@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Spanish flag background -->
+  <rect width="500" height="167" fill="#CC0000" />
+  <rect width="500" height="166" y="167" fill="#FFCC00" />
+  <rect width="500" height="167" y="333" fill="#CC0000" />
+  
+  <!-- Subtle TN map outline in the background -->
+  <path d="M320,80 C380,140 390,280 340,340 C290,400 200,420 160,380 C120,340 100,300 120,240 C140,180 180,120 240,100 C300,80 260,20 320,80Z" 
+        fill="none" stroke="#AA0000" stroke-width="3" opacity="0.2" />
+  
+  <!-- Use a clipping path for the portrait photo -->
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="250" cy="250" r="200" />
+    </clipPath>
+  </defs>
+  
+  <!-- We'd place a real photo here in a production environment -->
+  <g clip-path="url(#circleClip)">
+    <!-- Stylized representation of Vijay from the upload -->
+    <!-- Face shape -->
+    <ellipse cx="250" cy="250" rx="150" ry="170" fill="#8B5A2B" />
+    
+    <!-- Hair -->
+    <path d="M130,150 C150,100 200,80 250,80 C300,80 350,100 370,150 C330,130 290,120 250,120 C210,120 170,130 130,150Z" 
+          fill="#1A1A1A" />
+    
+    <!-- Beard -->
+    <path d="M190,310 C210,340 230,350 250,350 C270,350 290,340 310,310 C300,315 275,320 250,320 C225,320 200,315 190,310Z" 
+          fill="#1A1A1A" />
+    
+    <!-- Black pottu mark -->
+    <circle cx="250" cy="140" r="6" fill="#000000" />
+          
+    <!-- Necktie/Suit -->
+    <path d="M180,380 L180,450 L320,450 L320,380 C320,380 290,400 250,400 C210,400 180,380 180,380Z" 
+          fill="#FFFFFF" />
+    
+    <!-- Eyes -->
+    <ellipse cx="210" cy="220" rx="15" ry="10" fill="#1A1A1A" />
+    <ellipse cx="290" cy="220" rx="15" ry="10" fill="#1A1A1A" />
+    
+    <!-- Eyebrows -->
+    <path d="M190,200 C200,195 215,195 225,200 M275,200 C285,195 300,195 310,200" 
+          fill="none" stroke="#1A1A1A" stroke-width="4" />
+    
+    <!-- Nose -->
+    <path d="M250,230 L250,270 M240,270 C245,275 255,275 260,270" 
+          fill="none" stroke="#8B5A2B" stroke-width="3" />
+    
+    <!-- Mouth/Smile -->
+    <path d="M220,290 C235,300 265,300 280,290" 
+          fill="none" stroke="#5D4037" stroke-width="3" />
+    
+    <!-- Mustache -->
+    <path d="M220,280 C235,275 265,275 280,280" 
+          fill="none" stroke="#1A1A1A" stroke-width="5" />
+  </g>
+  
+  <!-- Namaste hands at the bottom (outside clipping path) -->
+  <path d="M230,400 C230,380 250,370 250,370 C250,370 270,380 270,400 C270,420 250,420 250,420 C250,420 230,420 230,400Z" 
+        fill="#8B5A2B" />
+  <path d="M250,370 L250,420" fill="none" stroke="#7D5122" stroke-width="2" />
+  <path d="M230,390 C235,385 245,380 250,380 C255,380 265,385 270,390" 
+        fill="none" stroke="#7D5122" stroke-width="2" />
+</svg> 

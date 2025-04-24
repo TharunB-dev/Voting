@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="4" fill="#003366" />
+  
+  <!-- Ballot box -->
+  <rect x="8" y="12" width="16" height="14" rx="2" fill="#ffffff" />
+  <rect x="11" y="14" width="10" height="2" rx="1" fill="#003366" />
+  
+  <!-- Ballot paper with TN symbol -->
+  <rect x="13" y="6" width="6" height="10" rx="1" fill="#ffffff" transform="rotate(-15, 16, 11)" />
+  <path d="M14.5 9L15.5 12L17.5 9" stroke="#003366" stroke-width="1" fill="none" transform="rotate(-15, 16, 11)" />
+  
+  <!-- Check mark -->
+  <path d="M12 18L15 21L20 15" stroke="#FF9933" stroke-width="2" fill="none" />
+</svg> 

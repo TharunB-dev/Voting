@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background with party color -->
+    <rect fill="#e6ffe6" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="40" fill="#ffe0cc"></circle>
+    
+    <!-- Body shape with party color accent -->
+    <path d="M60,120 L140,120 L140,200 L60,200 Z" fill="#ffe0cc"></path>
+    <path d="M60,170 L140,170 L140,200 L60,200 Z" fill="#33cc33" opacity="0.7"></path>
+    
+    <!-- Face features -->
+    <circle cx="85" cy="60" r="5" fill="#333333"></circle>
+    <circle cx="115" cy="60" r="5" fill="#333333"></circle>
+    <path d="M85,85 C85,75 115,75 115,85" stroke="#333333" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Earrings -->
+    <circle cx="60" cy="70" r="4" fill="gold"></circle>
+    <circle cx="140" cy="70" r="4" fill="gold"></circle>
+    
+    <!-- Hair -->
+    <path d="M60,70 C50,40 70,10 100,10 C130,10 150,40 140,70 C140,40 60,40 60,70 Z" fill="#663300"></path>
+    <path d="M60,60 C60,60 70,90 100,90 C130,90 140,60 140,60" stroke="#663300" stroke-width="10" fill="none"></path>
+    
+    <!-- Necklace -->
+    <path d="M85,120 C90,125 110,125 115,120" stroke="gold" stroke-width="3" fill="none"></path>
+    <circle cx="100" cy="125" r="4" fill="gold"></circle>
+    
+    <!-- Clothing -->
+    <path d="M60,120 L85,120 L85,130 L70,145 Z" fill="#33cc33"></path>
+    <path d="M140,120 L115,120 L115,130 L130,145 Z" fill="#33cc33"></path>
+    <path d="M70,145 L130,145 L130,200 L70,200 Z" fill="#f0f0f0"></path>
+  </g>
+</svg> 

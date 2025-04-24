@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Book cover -->
+    <path d="M20,20 L80,20 L80,80 L20,80 C20,80 30,75 30,60 L30,40 C30,25 20,20 20,20 Z" stroke="#6a1b9a" stroke-width="2" fill="#6a1b9a" opacity="0.7"></path>
+    
+    <!-- Book spine -->
+    <path d="M20,20 C25,25 30,30 30,40 L30,60 C30,70 25,75 20,80" stroke="#6a1b9a" stroke-width="2"></path>
+    
+    <!-- Book pages -->
+    <path d="M30,25 L75,25 L75,75 L30,75" stroke="white" stroke-width="1" fill="white"></path>
+    
+    <!-- Book title lines -->
+    <path d="M40,35 L65,35 M40,45 L65,45 M40,55 L65,55 M40,65 L55,65" stroke="#6a1b9a" stroke-width="2" stroke-linecap="round"></path>
+    
+    <!-- Book bookmark -->
+    <path d="M65,25 L65,40 L70,35 L75,40 L75,25" fill="#6a1b9a"></path>
+  </g>
+</svg> 

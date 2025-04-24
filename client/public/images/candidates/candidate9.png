@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#e6f7ff" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="32" fill="#e6c19c"></circle>
+    
+    <!-- Hair & Beard -->
+    <path d="M68,55 C68,40 132,40 132,55 C132,38 68,38 68,55 Z" fill="#663300"></path>
+    <path d="M85,102 C90,115 110,115 115,102" stroke="#663300" stroke-width="6" fill="none"></path>
+    <path d="M85,102 C83,108 86,112 90,114 C96,117 104,117 110,114 C114,112 117,108 115,102" fill="#663300"></path>
+    
+    <!-- Body shape - casual shirt -->
+    <path d="M75,102 L125,102 L130,200 L70,200 Z" fill="#336699"></path>
+    
+    <!-- Face features -->
+    <ellipse cx="90" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <ellipse cx="110" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <path d="M95,80 C98,82 102,82 105,80" stroke="#333333" stroke-width="1" fill="none"></path>
+    
+    <!-- Shirt details -->
+    <path d="M75,102 L125,102 L135,120 L65,120 Z" fill="#1a4d80"></path>
+    <circle cx="100" cy="110" r="3" fill="#ffffff"></circle>
+    <circle cx="100" cy="122" r="3" fill="#ffffff"></circle>
+    <circle cx="100" cy="134" r="3" fill="#ffffff"></circle>
+    
+    <!-- Hands -->
+    <path d="M75,120 C65,130 60,150 55,160" stroke="#e6c19c" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    <path d="M125,120 C135,130 140,150 145,160" stroke="#e6c19c" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    
+    <!-- Party symbol -->
+    <circle cx="100" cy="25" r="15" fill="#006633"></circle>
+    <path d="M95,20 L105,30 M105,20 L95,30" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+  </g>
+</svg>

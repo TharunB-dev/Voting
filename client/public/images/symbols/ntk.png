@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- NTK Torch Symbol -->
+    <circle cx="60" cy="60" r="55" fill="#ffffff" stroke="#dddddd" stroke-width="1"></circle>
+    
+    <!-- Torch Handle -->
+    <rect x="55" y="55" width="10" height="40" rx="2" fill="#000000"></rect>
+    
+    <!-- Torch Flame -->
+    <path d="M60,20 C50,30 45,40 50,50 C55,60 65,60 70,50 C75,40 70,30 60,20 Z" fill="#ffcc00" stroke="#e6b800" stroke-width="1"></path>
+    <path d="M60,25 C53,33 49,40 53,48 C57,55 63,55 67,48 C71,40 67,33 60,25 Z" fill="#ff9900" stroke="none"></path>
+    <path d="M60,30 C56,35 53,40 56,45 C59,50 62,50 64,45 C66,40 64,35 60,30 Z" fill="#ff6600" stroke="none"></path>
+    
+    <!-- Flame Glow -->
+    <circle cx="60" cy="35" r="25" fill="#ffcc00" opacity="0.2"></circle>
+    
+    <!-- NTK Text -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#000000" x="60" y="105" text-anchor="middle">NTK</text>
+  </g>
+</svg> 

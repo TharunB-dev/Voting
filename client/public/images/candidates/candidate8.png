@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#f2f2f2" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="32" fill="#ffe0c4"></circle>
+    
+    <!-- Hair & Beard (elderly style) -->
+    <path d="M68,60 C68,45 132,45 132,60 C132,48 68,48 68,60 Z" fill="#e6e6e6"></path>
+    <path d="M68,70 C68,90 76,100 85,102 C95,104 105,104 115,102 C124,100 132,90 132,70 Z" stroke="#e6e6e6" stroke-width="2" fill="none"></path>
+    <path d="M85,102 C90,115 110,115 115,102" stroke="#e6e6e6" stroke-width="6" fill="none"></path>
+    
+    <!-- Body shape - suit -->
+    <path d="M75,102 L125,102 L130,200 L70,200 Z" fill="#4d4d4d"></path>
+    <path d="M75,102 L125,102 L135,135 L65,135 Z" fill="#333333"></path>
+    
+    <!-- Face features -->
+    <ellipse cx="90" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <ellipse cx="110" cy="65" rx="4" ry="3" fill="#333333"></ellipse>
+    <path d="M90,80 C95,78 105,78 110,80" stroke="#666666" stroke-width="1" fill="none"></path>
+    
+    <!-- Glasses -->
+    <circle cx="90" cy="65" r="10" stroke="#666666" stroke-width="2" fill="none"></circle>
+    <circle cx="110" cy="65" r="10" stroke="#666666" stroke-width="2" fill="none"></circle>
+    <path d="M100,65 L100,65" stroke="#666666" stroke-width="2" fill="none"></path>
+    <path d="M80,65 L70,60" stroke="#666666" stroke-width="2" fill="none"></path>
+    <path d="M120,65 L130,60" stroke="#666666" stroke-width="2" fill="none"></path>
+    
+    <!-- Wrinkles -->
+    <path d="M85,55 C87,53 93,53 95,55" stroke="#cccccc" stroke-width="1" fill="none"></path>
+    <path d="M105,55 C107,53 113,53 115,55" stroke="#cccccc" stroke-width="1" fill="none"></path>
+    <path d="M75,70 C80,68 85,68 90,70" stroke="#cccccc" stroke-width="1" fill="none"></path>
+    <path d="M110,70 C115,68 120,68 125,70" stroke="#cccccc" stroke-width="1" fill="none"></path>
+    
+    <!-- Shirt and tie -->
+    <path d="M85,102 L115,102 L110,135 L90,135 Z" fill="#ffffff"></path>
+    <path d="M95,102 L105,102 L103,135 L97,135 Z" fill="#800000"></path>
+    
+    <!-- Hands -->
+    <path d="M75,120 C65,130 60,150 55,160" stroke="#ffe0c4" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    <path d="M125,120 C135,130 140,150 145,160" stroke="#ffe0c4" stroke-width="6" stroke-linecap="round" fill="none"></path>
+    
+    <!-- Party symbol -->
+    <rect x="88" y="15" width="24" height="24" fill="#333333"></rect>
+    <polygon points="100,15 112,39 88,39" fill="#ffffff"></polygon>
+  </g>
+</svg> 

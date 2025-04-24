@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <rect fill="#e6f7ff" x="0" y="0" width="200" height="200"></rect>
+    
+    <!-- Head shape -->
+    <circle cx="100" cy="70" r="35" fill="#f5d0a9"></circle>
+    
+    <!-- Body shape -->
+    <path d="M65,105 L135,105 C145,150 155,200 100,200 C45,200 55,150 65,105 Z" fill="#0066cc"></path>
+    
+    <!-- Face features -->
+    <ellipse cx="85" cy="65" rx="5" ry="4" fill="#333333"></ellipse>
+    <ellipse cx="115" cy="65" rx="5" ry="4" fill="#333333"></ellipse>
+    <path d="M85,85 C90,92 110,92 115,85" stroke="#333333" stroke-width="2" fill="none"></path>
+    
+    <!-- Headwear -->
+    <path d="M60,55 C60,25 140,25 140,55 C135,45 65,45 60,55 Z" fill="#1a8cff"></path>
+    <path d="M65,40 C80,30 120,30 135,40" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Traditional outfit details -->
+    <path d="M80,105 L80,140 L120,140 L120,105" fill="#ffffff"></path>
+    <path d="M90,140 L90,180 L110,180 L110,140" fill="#ffffff"></path>
+    
+    <!-- Accessories -->
+    <path d="M70,95 C75,110 125,110 130,95" stroke="#ffcc00" stroke-width="3" fill="none"></path>
+    <circle cx="100" cy="100" r="3" fill="#ffcc00"></circle>
+    
+    <!-- Hands -->
+    <path d="M65,120 C50,130 45,150 50,160" stroke="#f5d0a9" stroke-width="8" stroke-linecap="round" fill="none"></path>
+    <path d="M135,120 C150,130 155,150 150,160" stroke="#f5d0a9" stroke-width="8" stroke-linecap="round" fill="none"></path>
+    
+    <!-- Party symbol -->
+    <circle cx="100" cy="20" r="12" fill="#0066cc"></circle>
+    <path d="M95,15 L105,25 M105,15 L95,25" stroke="#ffffff" stroke-width="2"></path>
+    <circle cx="100" cy="20" r="8" stroke="#ffffff" stroke-width="1" fill="none"></circle>
+  </g>
+</svg> 

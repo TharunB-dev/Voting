@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FFFFFF"/>
+  <circle cx="100" cy="100" r="85" fill="#800080"/>
+  
+  <!-- Rising sun symbol - TVK -->
+  <circle cx="100" cy="100" r="35" fill="#FFD700"/>
+  
+  <!-- Sun rays -->
+  <g fill="#FFD700">
+    <path d="M100,20 L100,55" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100,145 L100,180" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M20,100 L55,100" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M145,100 L180,100" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    
+    <path d="M37,37 L62,62" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M138,138 L163,163" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M37,163 L62,138" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+    <path d="M138,62 L163,37" stroke="#FFD700" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Tamil letter "வெ" (Ve) from Vettri - more detailed -->
+  <path d="M88,85 C88,75 92,70 100,70 C108,70 112,75 112,85 L112,115 C112,125 108,130 100,130 C92,130 88,125 88,115 Z" 
+        fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Horizontal line for Tamil letter -->
+  <path d="M78,100 L122,100" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Add TVK text -->
+  <g>
+    <text x="100" y="170" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TVK</text>
+  </g>
+  
+  <!-- Inner details to make it more realistic -->
+  <circle cx="100" cy="100" r="25" fill="#FFE660" stroke="#FFD700" stroke-width="2"/>
+</svg> 

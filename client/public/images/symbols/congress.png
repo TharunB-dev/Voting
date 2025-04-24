@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Congress Hand Symbol -->
+    <circle cx="60" cy="60" r="55" fill="#ffffff" stroke="#dddddd" stroke-width="1"></circle>
+    
+    <!-- Hand Palm -->
+    <path d="M55,45 L55,85 C55,88 58,90 60,90 C62,90 65,88 65,85 L65,45 C65,42 62,40 60,40 C58,40 55,42 55,45 Z" fill="#0078d7" stroke="#0078d7" stroke-width="1"></path>
+    
+    <!-- Fingers -->
+    <path d="M55,50 L40,50 C37,50 35,52 35,55 C35,58 37,60 40,60 L55,60 Z" fill="#0078d7" stroke="#0078d7" stroke-width="1"></path>
+    <path d="M55,65 L38,65 C35,65 33,67 33,70 C33,73 35,75 38,75 L55,75 Z" fill="#0078d7" stroke="#0078d7" stroke-width="1"></path>
+    <path d="M55,80 L42,80 C39,80 37,82 37,85 C37,88 39,90 42,90 L55,90 Z" fill="#0078d7" stroke="#0078d7" stroke-width="1"></path>
+    <path d="M65,50 L80,40 C83,38 86,39 87,42 C88,45 87,48 84,50 L65,60 Z" fill="#0078d7" stroke="#0078d7" stroke-width="1"></path>
+    
+    <!-- Congress Text -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#000000" x="60" y="105" text-anchor="middle">CONG</text>
+  </g>
+</svg> 

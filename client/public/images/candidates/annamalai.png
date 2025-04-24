@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Background -->
+    <circle cx="100" cy="100" r="95" fill="#f5f5f5" stroke="#dddddd" stroke-width="1"></circle>
+    <rect x="0" y="150" width="200" height="50" fill="#f97d09"></rect>
+    
+    <!-- Face -->
+    <circle cx="100" cy="85" r="55" fill="#f4e0b9"></circle>
+    
+    <!-- Hair -->
+    <path d="M45,60 C45,30 155,30 155,60 L155,70 C155,40 45,40 45,70 Z" fill="#111111"></path>
+    
+    <!-- Eyebrows -->
+    <path d="M70,65 C75,60 85,60 90,65" stroke="#111111" stroke-width="2" stroke-linecap="round"></path>
+    <path d="M110,65 C115,60 125,60 130,65" stroke="#111111" stroke-width="2" stroke-linecap="round"></path>
+    
+    <!-- Eyes -->
+    <ellipse cx="80" cy="75" rx="5" ry="4" fill="#333333"></ellipse>
+    <ellipse cx="120" cy="75" rx="5" ry="4" fill="#333333"></ellipse>
+    
+    <!-- Nose -->
+    <path d="M95,80 C100,90 105,90 110,80" stroke="#d4b79b" stroke-width="2" fill="transparent"></path>
+    
+    <!-- Small Beard -->
+    <path d="M90,100 C95,105 105,105 110,100 L110,110 C105,115 95,115 90,110 Z" fill="#111111"></path>
+    
+    <!-- Mouth -->
+    <path d="M85,100 C95,105 105,105 115,100" stroke="#cc9980" stroke-width="2" stroke-linecap="round" fill="transparent"></path>
+    
+    <!-- Ears -->
+    <path d="M45,75 C40,85 40,95 45,105" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    <path d="M155,75 C160,85 160,95 155,105" stroke="#f4e0b9" stroke-width="10" stroke-linecap="round"></path>
+    
+    <!-- Neck -->
+    <path d="M85,140 L85,150 L115,150 L115,140" fill="#f4e0b9"></path>
+    
+    <!-- Shirt -->
+    <path d="M85,150 L60,180 L140,180 L115,150" fill="#ffffff"></path>
+    
+    <!-- Party Symbol on Shirt -->
+    <circle cx="100" cy="165" r="10" fill="#f97d09"></circle>
+    <path d="M95,160 C95,165 100,170 105,165 C110,160 105,155 100,160 C95,165 100,170 105,165" stroke="#006400" stroke-width="1.5" fill="none"></path>
+    <path d="M95,165 C100,165 100,170 105,170" stroke="#006400" stroke-width="1.5" fill="none"></path>
+    
+    <!-- Name -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" x="100" y="175" text-anchor="middle">K. ANNAMALAI</text>
+  </g>
+</svg> 

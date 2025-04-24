@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- ADMK Two Leaves Symbol -->
+    <circle cx="60" cy="60" r="55" fill="#ffffff" stroke="#dddddd" stroke-width="1"></circle>
+    
+    <!-- Leaves -->
+    <path d="M40,30 C30,40 25,55 35,70 C45,85 60,80 70,65 C50,70 35,50 40,30 Z" fill="#00cc00" stroke="#008800" stroke-width="1"></path>
+    <path d="M80,30 C90,40 95,55 85,70 C75,85 60,80 50,65 C70,70 85,50 80,30 Z" fill="#00cc00" stroke="#008800" stroke-width="1"></path>
+    
+    <!-- Stem -->
+    <path d="M60,65 L60,90" stroke="#008800" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- ADMK Text -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#000000" x="60" y="105" text-anchor="middle">ADMK</text>
+  </g>
+</svg> 

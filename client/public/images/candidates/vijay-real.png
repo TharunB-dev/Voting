@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Spanish flag-like background -->
+  <rect width="500" height="167" fill="#CC0000" />
+  <rect width="500" height="166" y="167" fill="#FFCC00" />
+  <rect width="500" height="167" y="333" fill="#CC0000" />
+  
+  <!-- Use a clipping path for the image -->
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="250" cy="250" r="200" />
+    </clipPath>
+  </defs>
+  
+  <!-- Image base - embedded as a white rectangle to be drawn over -->
+  <rect x="50" y="50" width="400" height="400" fill="white" clip-path="url(#circleClip)" />
+  
+  <!-- Face outline shapes - stylized representation of the actual photo -->
+  <g clip-path="url(#circleClip)">
+    <!-- Hair and head shape -->
+    <path d="M180,100 C160,110 150,140 150,170 C150,220 180,260 200,280 
+             C220,300 240,310 260,310 C280,310 300,300 320,280 
+             C340,260 360,220 360,170 C360,140 350,110 330,100 
+             C310,90 280,85 250,85 C220,85 200,90 180,100Z" 
+          fill="#2A1B0A" />
+    
+    <!-- Face -->
+    <path d="M190,130 C180,150 175,180 175,210 C175,250 195,280 210,300 
+             C225,320 240,330 255,330 C270,330 285,320 300,300 
+             C315,280 335,250 335,210 C335,180 330,150 320,130 
+             C305,110 280,100 255,100 C230,100 205,110 190,130Z" 
+          fill="#8B5A2B" />
+    
+    <!-- Beard -->
+    <path d="M200,240 C210,270 230,290 255,290 C280,290 300,270 310,240
+             C300,245 280,250 255,250 C230,250 210,245 200,240Z" 
+          fill="#2A1B0A" />
+    
+    <!-- Eyes -->
+    <ellipse cx="220" cy="190" rx="12" ry="8" fill="#2A1B0A" />
+    <ellipse cx="290" cy="190" rx="12" ry="8" fill="#2A1B0A" />
+    
+    <!-- Eyebrows -->
+    <path d="M200,170 C210,165 220,165 230,170 M270,170 C280,165 290,165 300,170" 
+          fill="none" stroke="#2A1B0A" stroke-width="4" />
+    
+    <!-- Nose -->
+    <path d="M255,190 L255,230 M245,230 C250,235 260,235 265,230" 
+          fill="none" stroke="#8B5A2B" stroke-width="3" />
+    
+    <!-- Mouth/Smile -->
+    <path d="M220,240 C235,250 275,250 290,240" 
+          fill="none" stroke="#5D4037" stroke-width="3" />
+  </g>
+  
+  <!-- White shirt -->
+  <path d="M140,340 L140,500 L360,500 L360,340 C360,340 320,360 250,360 C180,360 140,340 140,340Z" 
+        fill="#FFFFFF" />
+  
+  <!-- Namaste hands -->
+  <path d="M230,400 C230,380 250,370 250,370 C250,370 270,380 270,400 C270,420 250,420 250,420 C250,420 230,420 230,400Z" 
+        fill="#8B5A2B" />
+  <path d="M250,370 L250,420" fill="none" stroke="#7D5122" stroke-width="2" />
+  <path d="M230,390 C235,385 245,380 250,380 C255,380 265,385 270,390" 
+        fill="none" stroke="#7D5122" stroke-width="2" />
+</svg> 

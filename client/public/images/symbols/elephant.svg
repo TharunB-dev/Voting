@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Elephant body -->
+    <ellipse cx="55" cy="60" rx="30" ry="20" fill="#b71c1c"></ellipse>
+    
+    <!-- Elephant head -->
+    <circle cx="25" cy="50" r="15" fill="#b71c1c"></circle>
+    
+    <!-- Elephant trunk -->
+    <path d="M25,50 C20,60 15,70 20,80" stroke="#b71c1c" stroke-width="8" stroke-linecap="round"></path>
+    
+    <!-- Elephant ear -->
+    <path d="M25,50 C15,40 25,20 40,30 C50,35 40,45 25,50 Z" fill="#b71c1c"></path>
+    
+    <!-- Elephant legs -->
+    <path d="M35,75 L35,90 M50,75 L50,90 M60,75 L60,90 M75,75 L75,90" stroke="#b71c1c" stroke-width="8" stroke-linecap="round"></path>
+    
+    <!-- Elephant tail -->
+    <path d="M85,60 C90,55 95,65 90,70" stroke="#b71c1c" stroke-width="3" stroke-linecap="round"></path>
+    
+    <!-- Elephant eye -->
+    <circle cx="22" cy="45" r="2" fill="white"></circle>
+    
+    <!-- Elephant tusk -->
+    <path d="M30,60 L40,65" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+  </g>
+</svg> 

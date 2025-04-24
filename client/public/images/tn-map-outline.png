@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="400px" viewBox="0 0 300 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Tamil Nadu Map Outline -->
+    <path d="M91.5,51 C86,55 80,60 75,68 C70,76 66.5,84 64,91 C61.5,98 60,104 59,111 C58,118 57.5,126 58,134 C58.5,142 59.5,149 61,157 C62.5,165 64.5,175 67,185 C69.5,195 72,204 75,214 C78,224 81.5,236 85,246 C88.5,256 92,266 95,272 C98,278 100,282 103,286 C106,290 110,294 114,296 C118,298 122,299 126,300 C130,301 134,301 139,301 C144,301 150,300 156,299 C162,298 169,296 176,294 C183,292 190,289 196,287 C202,285 207,283 212,280 C217,277 222,273 227,269 C232,265 237,260 241,255 C245,250 248,244 250,238 C252,232 253,226 253,220 C253,214 252,208 250,202 C248,196 245,190 241,184 C237,178 232,172 227,166 C222,160 217,154 212,149 C207,144 202,139 199,134 C196,129 194,124 193,118 C192,112 192,105 193,99 C194,93 196,86 199,80 C202,74 206,67 210,62 C214,57 219,52 223,48 C227,44 230,41 232,38 C234,35 235,32 235,29 C235,26 234,23 232,20 C230,17 227,14 223,12 C219,10 214,8 208,7 C202,6 195,5 188,4 C181,3 173,3 166,3 C159,3 152,4 145,5 C138,6 132,8 127,10 C122,12 118,15 114,18 C110,21 106,25 103,30 C100,35 98,41 96,47 C94,53 93,61 92,69 C91,77 91,85 92,91" 
+          fill="#f5f5f5" 
+          stroke="#1a3a6c" 
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+    
+    <!-- Highlight borders with cultural colors -->
+    <path d="M91.5,51 C86,55 80,60 75,68" 
+          stroke="#ff9933" 
+          stroke-width="1.5" 
+          stroke-dasharray="4,2" 
+          stroke-linecap="round"></path>
+    <path d="M235,29 C235,26 234,23 232,20 C230,17 227,14 223,12" 
+          stroke="#ff9933" 
+          stroke-width="1.5" 
+          stroke-dasharray="4,2" 
+          stroke-linecap="round"></path>
+    <path d="M126,300 C130,301 134,301 139,301 C144,301 150,300 156,299" 
+          stroke="#138808" 
+          stroke-width="1.5" 
+          stroke-dasharray="4,2" 
+          stroke-linecap="round"></path>
+    
+    <!-- Kolam-style patterns inside the map -->
+    <circle cx="140" cy="100" r="8" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="140" cy="100" r="4" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="140" cy="220" r="8" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="140" cy="220" r="4" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="180" cy="160" r="8" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="180" cy="160" r="4" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="100" cy="160" r="8" fill="none" stroke="#800000" stroke-width="1"></circle>
+    <circle cx="100" cy="160" r="4" fill="none" stroke="#800000" stroke-width="1"></circle>
+    
+    <!-- Major cities markers -->
+    <circle cx="140" cy="70" r="5" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="155" y="73" text-anchor="start">Chennai</text>
+    
+    <circle cx="170" cy="140" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="179" y="143" text-anchor="start">Vellore</text>
+    
+    <circle cx="125" cy="200" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="134" y="203" text-anchor="start">Trichy</text>
+    
+    <circle cx="100" cy="240" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="108" y="243" text-anchor="start">Madurai</text>
+    
+    <circle cx="130" cy="280" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="138" y="283" text-anchor="start">Tirunelveli</text>
+    
+    <circle cx="70" cy="150" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="50" y="153" text-anchor="end">Salem</text>
+    
+    <circle cx="90" cy="120" r="4" fill="#1a3a6c"></circle>
+    <text font-family="Arial" font-size="8" fill="#1a3a6c" x="78" y="123" text-anchor="end">Coimbatore</text>
+    
+    <!-- Tamil Nadu text at the bottom -->
+    <text font-family="Arial" font-size="14" font-weight="bold" fill="#1a3a6c" x="150" y="340" text-anchor="middle">TAMIL NADU</text>
+    <text font-family="Arial" font-size="12" fill="#1a3a6c" x="150" y="360" text-anchor="middle">தமிழ்நாடு</text>
+  </g>
+</svg> 

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tamil Nadu E-Vote Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-tn-light font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-tn-primary;
+  }
+}
+
+@layer components {
+  .tn-tamil-text {
+    @apply font-tamil;
+  }
+  
+  .tn-badge {
+    @apply inline-flex items-center justify-center px-2 py-1 text-xs font-medium rounded-full;
+  }
+  
+  .tn-vote-btn {
+    @apply inline-flex items-center justify-center px-5 py-2 font-medium text-white bg-tn-primary 
+           rounded-lg shadow-md transition-all duration-300 transform hover:scale-105
+           hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-tn-primary;
+  }
+  
+  .tn-party-logo {
+    @apply absolute top-3 right-3 w-12 h-12 bg-white rounded-full shadow-md
+           flex items-center justify-center border-2 border-white overflow-hidden;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Baloo+Thambi+2:wght@400;500;600;700&display=swap');
+
+@import './styles/base.css';
+@import './styles/reset.css';
+@import './styles/utilities.css';
+@import './styles/error.css';
+@import './styles/buttons.css';
+@import './styles/form.css';
+@import './styles/theme.css';
+
+/* Original styling will be overridden by theme.css where needed */
+@import './styles/navbar.css';
+@import './styles/polls.css';
